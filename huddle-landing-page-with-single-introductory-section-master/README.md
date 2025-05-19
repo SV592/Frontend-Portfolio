@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://sv592.github.io/FrontEnd-Designs/huddle-landing-page-with-single-introductory-section-master/)
+- Live Site URL: (https://sv592.github.io/FrontEnd-Designs/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 
