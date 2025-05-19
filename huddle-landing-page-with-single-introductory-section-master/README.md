@@ -6,7 +6,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 Users should be able to:
 
-- View the optimal layout for the page depending on their device's screen size
+- View the optimal layout for the page depending on the device's screen size
 - See hover states for all interactive elements on the page
 
 ### Screenshot
@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://sv592.github.io/FrontEnd-Designs/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 
