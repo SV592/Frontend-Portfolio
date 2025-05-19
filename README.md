@@ -6,7 +6,7 @@ Welcome! This repository contains a collection of my frontend designs.
 
 Here's a quick overview of the designs:
 
-* [Huddle](./huddle-landing-page-with-single-introductory-section-master) - A responsive landing page.
+* [Huddle](./huddle-landing-page-with-single-introductory-section-master) - Responsive landing page use built CSS flexbox and media queries.
 
 ## Technologies Used
 
