@@ -1,4 +1,4 @@
-# FrontEnd Designs
+# Frontend Portfolio
 
 Welcome! This repository contains a collection of my frontend designs.
 
