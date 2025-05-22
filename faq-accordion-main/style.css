@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url(./assets/images/background-pattern-desktop.svg);
+   background-size: 100vw;
+   background-repeat: no-repeat;
+   background-color: hsl(275, 100%, 97%); 
+   font-family: "Work Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400, 600, 700;
+   font-size: 1em;
+   height: 100vh;
+   color:hsl(292, 42%, 14%);
+}
+
+main {
+    max-width: 600px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+button {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.heading {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    
+}
+
+.display {
+    padding: 30px;
+}
+
+.elements {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: solid 1px;
+
+}
+
+.elements:nth-child(1) {
+    padding-top: 0;
+}
+
+.elements:nth-child(4) {
+    border: none;
+}
+
+.reveal {
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.reveal:hover {
+    color: #AD28EB;
+}
+
+.hidden {
+    position: absolute;
+    opacity: 0;
+    top: -9999px;
+    overflow: hidden;
+    color: grey;
+}
+
+.active {
+    position: relative;
+    top: initial;
+    padding: 0;
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+
