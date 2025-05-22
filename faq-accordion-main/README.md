@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/SV592/Frontend-Portfolio/tree/main/huddle-landing-page-with-single-introductory-section-master)
-- Live Site URL: (https://sv592.github.io/Frontend-Portfolio/huddle-landing-page-with-single-introductory-section-master/)
+- Solution URL: (https://github.com/SV592/Frontend-Portfolio/tree/main/faq-accordion-main/)
+- Live Site URL: (https://sv592.github.io/Frontend-Portfolio/faq-accordion-main/)
 
 ## My process
 
