@@ -1,13 +1,16 @@
-# Frontend Mentor - Huddle landing page with single introductory section solution
+# Frontend Mentor - FAQ accordion
 
-This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0).
+This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ### The challenge
 
 Users should be able to:
 
-- View the optimal layout for the page depending on the device's screen size
-- See hover states for all interactive elements on the page
+- Hide/Show the answer to a question when the question is clicked
+- Navigate the questions and hide/show answers using keyboard navigation alone
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
 
 ### Screenshot
 
@@ -29,7 +32,7 @@ Users should be able to:
 
 ### What I learned
 
-You can't use transitions on elements that have the display attribute
+You can't use transitions on elements with the display attribute set
 
 ## Author
 
