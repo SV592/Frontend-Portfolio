@@ -25,7 +25,7 @@ This is a solution to the [Browser extensions manager UI challenge on Frontend M
 
 ### What I learned
 
-Apprently some legacy DOMs on certain browsers had a function called "all()" and i found that out because i tried to call my custom "all()" function onclick and it didn't do anything.
+Apparently, some legacy DOMs on certain browsers had a function called "all()" and I found that out because I tried to call my custom "all()" function onclick and it didn't do anything.
 
 Since there were no errors nor were my console.logs working, debugging it was "fun" 😐.
 
