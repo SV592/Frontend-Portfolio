@@ -37,5 +37,5 @@ I could not figure out how to edit the color of the header SVG for the dark them
 
 ## Author
 
-- Website - [Add your name here](https://shaquillepearson.com/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/SV592)
+- Website - [Shaquille Pearson](https://shaquillepearson.com/)
+- Frontend Mentor - [@SV592](https://www.frontendmentor.io/profile/SV592)
