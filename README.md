@@ -14,6 +14,7 @@ Here's a quick overview of the designs:
 
 * HTML 
 * CSS
+* JavaScript
 
 ## Author
 
