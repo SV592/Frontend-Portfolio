@@ -6,8 +6,9 @@ Welcome! This repository contains a collection of my frontend designs.
 
 Here's a quick overview of the designs:
 
-* [Huddle](./huddle-landing-page-with-single-introductory-section-master) - Responsive landing page uses built CSS flexbox and media queries.
+* [Huddle](./huddle-landing-page-with-single-introductory-section-master) - Responsive landing page uses CSS flexbox and media queries.
 * [FAQ](./faq-accordion-main) - A responsive FAQ page with questions/answers toggling and transitions
+* [Browser](./browser-extensions-manager-ui-main) - Responsive browser extensions manager with dark theme toggle  
 
 ## Technologies Used
 
