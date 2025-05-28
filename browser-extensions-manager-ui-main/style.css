@@ -1,0 +1,420 @@
+/* Import Google Fonts for typography */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset default browser styles and set box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/* Main body styles and background gradient */
+body {
+    background-image: linear-gradient(180deg, hsl(217, 61%, 90%) 0%, hsl(200, 60%, 99%) 100%);
+    font-size: 1em;
+    font-family: "Noto Sans";
+    transition: all ease 0.5s;
+    min-height: 100vh;
+    /* background-attachment: fixed; */
+}
+
+/* Dark mode body styles */
+.dark-body {
+    color: white;
+    background-image: linear-gradient(180deg, hsl(227, 75%, 14%) 0%, hsl(226, 25%, 17%) 100%);
+}
+
+/* Container layout for centering content */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive container widths for different sections */
+.container:nth-of-type(1){
+    min-width: 1220px;
+}
+.container:nth-of-type(2){
+    margin-top: 10vh;
+    min-width: 1220px;
+}
+.container:nth-of-type(3){
+    min-width: 1200px;
+    margin-top: 5vh;
+}
+
+/* ===================== Header Styles ===================== */
+
+/* Header bar styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(200, 60%, 99%);
+    box-shadow: 1px 1px 1px 1px hsl(0, 0%, 78%);
+    width: 65%;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 15px;
+    transition: all ease 0.5s;
+}
+
+/* Dark mode header */
+.dark-header {
+    background-color: hsl(225, 23%, 24%);
+    box-shadow: none;
+}
+
+/* Theme toggle button styles */
+.theme-toggle {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 93%);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+/* Dark mode theme toggle */
+.dark-theme-toggle {
+    background-color: hsl(226, 11%, 37%);
+}
+
+/* Theme toggle hover effect */
+.theme-toggle:hover {
+    transform: scale(1.05);
+}
+
+/* ===================== Grid Header Styles ===================== */
+
+/* Grid header bar */
+.grid-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    margin-bottom: 30px;
+}
+
+/* List of filter/sort buttons */
+.list-items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+/* List item button styles */
+.list-items button {
+    background-color: hsl(200, 60%, 99%);
+    border: none;
+    border-radius: 20px;
+    padding-block: 5px;
+    padding-inline: 15px;
+    box-shadow: 1px 1px 1px 1px hsl(0, 0%, 78%);
+    cursor: pointer;
+}
+
+/* List item button hover effect */
+.list-items button:hover {
+    background-color: hsl(3, 86%, 64%);
+    border-color: hsl(3, 86%, 64%);
+}
+
+/* Dark mode list item buttons */
+.dark-list-items button {
+    background-color: hsl(226, 11%, 37%);
+    border: solid 1px white;
+    box-shadow: none;
+}
+
+/* ===================== Grid Styles ===================== */
+
+/* Main grid layout for extensions */
+.grid {
+    display: grid;
+    justify-content: space-between;
+    width: 65%;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Active extension card styles */
+.active-grid-elements {
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: hsl(200, 60%, 99%);
+    border: none;
+    border-radius: 20px;
+    height: 19vh;
+    width: 21vw;
+    min-height: 150px;
+    min-width: 260px;
+    font-size: 0.8rem;
+    box-shadow: 1px 1px 1px 1px hsl(0, 0%, 78%);
+}
+
+/* Inactive extension card styles (faded/desaturated) */
+.inactive-grid-elements {
+    opacity: 0.5; /* Make inactive extensions slightly faded */
+    filter: grayscale(80%); /* Make them look desaturated */
+}
+
+/* Hide elements utility class */
+.hide-elements {
+    display: none !important;
+}
+
+/* Show elements utility class */
+.show-elements {
+    display: grid;
+}
+
+/* Dark mode extension card styles */
+.dark-grid-elements {
+    background-color: hsl(225, 23%, 24%);
+    border: solid 1px white;
+    box-shadow: none;
+}
+
+/* Extension card content layout */
+.grid-items {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Extension icon size */
+.grid-items img {
+    width: 50px;
+}
+
+/* Extension description text color */
+.grid-items p {
+    color: hsl(226, 11%, 37%);
+}
+
+/* Dark mode extension card text color */
+.dark-grid-elements p {
+    color: hsl(0, 0%, 78%);
+}
+
+/* Container for grid item controls */
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15px;
+}
+
+/* ===================== Button Styles ===================== */
+
+/* General button styles */
+.button {
+    background-color: hsl(200, 60%, 99%);
+    border: solid 1px hsl(0, 0%, 78%);
+    border-radius: 20px;
+    padding-block: 8px;
+    padding-inline: 12px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.button:hover {
+    border-color: hsl(3, 86%, 64%);
+}
+
+/* Dark mode button styles */
+.dark-button {
+    background-color: hsl(225, 23%, 24%);
+    color: hsl(0, 0%, 78%);
+}
+
+/* ===================== Toggle Switch Styles ===================== */
+
+/* Toggle switch container */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20.5px;
+}
+
+/* Hide default checkbox */
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The track of the toggle switch */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s;
+}
+
+/* Dark mode slider */
+.dark-slider {
+    background-color: hsl(226, 11%, 37%);
+}
+
+/* ===================== Modal Styles ===================== */
+
+/* Modal container (hidden by default) */
+.container2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: none;
+}
+
+/* Modal dialog styles */
+.modal {
+    color: black;
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: white;
+    border: solid 1px black;
+    box-shadow: none;
+    border-radius: 20px; 
+    padding: 20px;
+    transition: all ease 0.2s;
+}
+
+/* Dark mode modal */
+.dark-modal {
+    color: white;
+    background-color: hsl(225, 23%, 24%);
+    border: solid 1px white;
+}
+
+/* Modal button styles */
+.modal button {
+    background-color: hsl(225, 23%, 24%);
+    color: white;
+    font-weight: bold;
+    min-width: 50px;
+}
+
+/* Dark mode modal button */
+.dark-modal button {
+    background-color: white;   
+    color: black;
+}
+
+/* Modal button hover effect */
+.modal button:hover {
+    background-color: hsl(3, 86%, 64%);
+}
+
+/* Modal hover effect */
+.modal:hover {
+    transform: scale(1.05);
+}
+
+/* Modal button group layout */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* ===================== Toggle Switch Circle ===================== */
+
+/* The circular slider knob */
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 3px;
+    bottom: 2.8px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+/* Toggled state for the slider track */
+.toggle-switch input:checked+.slider {
+    background-color: hsl(3, 86%, 64%);
+}
+
+/* Toggled state for the slider knob */
+.toggle-switch input:checked+.slider::before {
+    transform: translateX(15px);
+}
+
+/* ===================== Responsive Styles ===================== */
+
+/* Smaller monitors (tablet) */
+@media (max-width: 1217px) {
+
+    .container:nth-of-type(1){
+        min-width: 0;
+    }
+
+    .container:nth-of-type(2){
+        min-width: 0;
+    }
+
+    .container:nth-of-type(3){
+        min-width: 0;
+    }
+
+    .header {
+        min-width: 500px
+    }
+    
+    .grid-header {
+        justify-content: space-between;
+        min-width: 500px;
+    }
+
+    .grid {
+        grid-template-columns: auto auto;
+        justify-content: center;
+        min-width: 500px
+    }
+
+    .grid-elements {
+        height: 0;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 700px) {
+    
+    .header {
+        min-width: 300px;
+        margin-inline: 0;
+    }
+    
+    .grid-header {
+        margin-inline: 0;
+        min-width: 300px;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .grid {
+        grid-template-columns: auto;
+        margin-inline: 0;
+        min-width: 300px;
+    }
+}
