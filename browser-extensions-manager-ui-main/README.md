@@ -4,10 +4,8 @@ This is a solution to the [Browser extensions manager UI challenge on Frontend M
 
 ### Screenshot
 
-![](./screenshot/desktop.png)
-![](./screenshot/mobile.png)
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./screenshots/desktop.png)
+![](./screenshots/mobile.png)
 
 ### Links
 
